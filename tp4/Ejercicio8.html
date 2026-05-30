@@ -1,0 +1,31 @@
+Ejercicio 8:
+<html>
+<head>
+    <title>Ejercicio 8 - Formulario Completo</title>
+</head>
+<body>
+    <h2>Formulario de Contacto</h2>
+    <form action="procesar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+
+        <label>¿Es mayor de edad?</label>
+        <input type="radio" id="si" name="mayor_edad" value="si" checked>
+        <label for="si">Sí</label>
+        <input type="radio" id="no" name="mayor_edad" value="no">
+        <label for="no">No</label>
+        <br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono" value="0299-" required>
+        <br><br>
+
+        <label for="comentarios">Comentarios:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="40" placeholder="Ingrese sus comentarios aquí..."></textarea>
+        <br><br>
+
+        <input type="submit" value="Enviar al servidor">
+    </form>
+</body>
+</html>
