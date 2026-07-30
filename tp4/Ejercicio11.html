@@ -1,0 +1,26 @@
+Ejercicio 11:
+<html>
+<head>
+    <title>Ejercicio 11 - Formulario de Reclamos</title>
+</head>
+<body>
+    <h2>Formulario de Reclamo de Reparaciones</h2>
+    
+    <form action="mailto:reclamos@gmail.com" method="post" enctype="text/plain">
+        
+        <label for="nombre_reclamo">Nombre:</label><br>
+        <input type="text" id="nombre_reclamo" name="Nombre" required>
+        <br><br>
+
+        <label for="direccion">Dirección:</label><br>
+        <input type="text" id="direccion" name="Direccion" required>
+        <br><br>
+
+        <label for="problema">Comentario del problema:</label><br>
+        <textarea id="problema" name="Comentario_Problema" rows="6" cols="50" placeholder="Describa el problema aquí..." required></textarea>
+        <br><br>
+
+        <input type="submit" value="Enviar Reclamo">
+    </form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+Ejercicio 12:
+<html>
+<head>
+    <title>Ejercicio 12 - Alquiler de Películas</title>
+</head>
+<body>
+    <h2>Alquiler de Películas</h2>
+    <form action="procesar_alquiler.php" method="post">
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="clave">Clave:</label><br>
+        <input type="password" id="clave" name="clave" required>
+        <br><br>
+
+        <p>Seleccione los títulos de películas que desea alquilar:</p>
+        
+        <input type="checkbox" id="peli1" name="peliculas[]" value="Inception">
+        <label for="peli1">Inception (El Origen)</label><br>
+
+        <input type="checkbox" id="peli2" name="peliculas[]" value="The Matrix">
+        <label for="peli2">The Matrix</label><br>
+
+        <input type="checkbox" id="peli3" name="peliculas[]" value="Interstellar">
+        <label for="peli3">Interstellar</label><br>
+
+        <input type="checkbox" id="peli4" name="peliculas[]" value="Gladiator">
+        <label for="peli4">Gladiator</label><br><br>
+
+        <input type="submit" value="Enviar datos al servidor">
+    </form>
+</body>
+</html>
