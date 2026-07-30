@@ -1,0 +1,13 @@
+28/07/26
+                                                         HTML y CSS
+Nombre y Apellido: Juaquin Chico
+Curso: 5°5
+Turno: Vespertino
+
+Pregunta: 
+----------
+(*)-¿Cual de los dos archivos le llevo mas tiempo?
+Respuesta:
+----------
+-Llevó más tiempo el archivo sin CSS, porque hubo que modificar manualmente cada uno de los párrafos uno por uno.
+En cambio, en el archivo con CSS, con solo modificar una regla en la sección de estilos, todos los párrafos cambiaron automáticamente al mismo tiempo.
